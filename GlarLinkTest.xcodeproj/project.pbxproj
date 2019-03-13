@@ -13,6 +13,7 @@
 		B37399D521C0BA8E0004CEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37399D421C0BA8E0004CEFA /* Assets.xcassets */; };
 		B37399D821C0BA8E0004CEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37399D621C0BA8E0004CEFA /* LaunchScreen.storyboard */; };
 		B37399DB21C0BA8E0004CEFA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B37399DA21C0BA8E0004CEFA /* main.m */; };
+		B3A8CF6C21C24AD10096152F /* CBPeripheral+MacAddr.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A8CF6B21C24AD10096152F /* CBPeripheral+MacAddr.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B37399D721C0BA8E0004CEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B37399D921C0BA8E0004CEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B37399DA21C0BA8E0004CEFA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3A8CF6A21C24AD10096152F /* CBPeripheral+MacAddr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBPeripheral+MacAddr.h"; sourceTree = "<group>"; };
+		B3A8CF6B21C24AD10096152F /* CBPeripheral+MacAddr.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CBPeripheral+MacAddr.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B37399D621C0BA8E0004CEFA /* LaunchScreen.storyboard */,
 				B37399D921C0BA8E0004CEFA /* Info.plist */,
 				B37399DA21C0BA8E0004CEFA /* main.m */,
+				B3A8CF6A21C24AD10096152F /* CBPeripheral+MacAddr.h */,
+				B3A8CF6B21C24AD10096152F /* CBPeripheral+MacAddr.m */,
 			);
 			path = GlarLinkTest;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37399D021C0BA8D0004CEFA /* ViewController.m in Sources */,
+				B3A8CF6C21C24AD10096152F /* CBPeripheral+MacAddr.m in Sources */,
 				B37399DB21C0BA8E0004CEFA /* main.m in Sources */,
 				B37399CD21C0BA8D0004CEFA /* AppDelegate.m in Sources */,
 			);
@@ -294,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dnurse.glarlink.GlarLinkTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_SWIFT_SYMBOLS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -311,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dnurse.glarlink.GlarLinkTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_SWIFT_SYMBOLS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

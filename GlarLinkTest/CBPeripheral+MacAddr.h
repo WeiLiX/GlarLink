@@ -12,6 +12,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CBPeripheral (MacAddr)
 
+- (void)setAdvertisementData:(NSDictionary *)advertisementData;
+- (NSString *)getMACAddr;
+- (void)setRSSI:(NSNumber *)rssi;
+
 @end
 
 NS_ASSUME_NONNULL_END
